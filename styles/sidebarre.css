@@ -1,0 +1,37 @@
+.sidebare {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    background-color: white;
+    width: 72px;
+    padding-top: 5px;
+}
+
+.sidebare-list {
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer; 
+    
+    
+}
+
+.sidebare-list:hover {
+    background-color: rgb(231, 229, 229);
+    
+
+}
+
+.sidebare-list img {
+    height: 24px;
+
+}
+
+.sidebare-list div {
+    font-family: Roboto, arial;
+    font-size: 10px;
+    padding-top: 5px;
+}
